@@ -48,3 +48,7 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'pg'
+  gme 'rails_12factor'
+end
